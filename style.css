@@ -1,0 +1,13 @@
+@import 'box-size.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e3e3e3;
+	height: 200vh;
+	width: 300vw;
+	position: relative;
+	display: flex;
+}
