@@ -20,11 +20,43 @@
 
 .artist-info__name {
 	font-size: 20px;
-	margin-bottom: 10px;
+	font-weight: 700;
 }
 
 .artist-info__genre {
-	margin-top: 5px;
-	font-size: 10px;
-	color: rgba(0, 0, 0, 0.4);
+	margin-top: 8px;
+	font-size: 5px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.first-screen__btn {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 5px;
+	margin-top: 15px;
+}
+
+.first-screen__btn-shuffle,
+.first-screen__btn-heart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	width: 60px;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
+.first-screen__btn-shuffle {
+	background-color: black;
+	color: white;
+}
+
+.first-screen__btn-heart {
+	background-color: black;
+	color: white;
+}
+
+.first-screen__btn-heart span {
+	color: rgba(0, 0, 0, 0.3);
 }
