@@ -1,0 +1,30 @@
+.first-screen__artist {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.first-screen__artist img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	box-shadow: 2px 9px 0.6em #ede1e2;
+}
+
+.first-screen__info {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.artist-info__name {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.artist-info__genre {
+	margin-top: 5px;
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0.4);
+}

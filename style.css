@@ -1,4 +1,8 @@
 @import 'box-size.css';
+@import 'status-bar.css';
+@import 'first-screen.css';
+@import 'second-screen.css';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&family=Lobster&family=Nanum+Gothic:wght@700;800&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -8,6 +12,7 @@ body {
 	background-color: #e3e3e3;
 	height: 200vh;
 	width: 300vw;
+	left: 30px;
 	position: relative;
 	display: flex;
 }
