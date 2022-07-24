@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 @import 'box-size.css';
 @import 'status-bar.css';
@@ -10,12 +10,12 @@
 }
 
 body {
+	font-family: 'Do Hyeon', sans-serif;
+
 	background-color: #e3e3e3;
 	height: 200vh;
-	width: 300vw;
+	width: 100vw;
 	left: 30px;
 	position: relative;
 	display: flex;
-
-	font-family: 'Raleway', sans-serif;
 }

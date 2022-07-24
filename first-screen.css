@@ -24,7 +24,7 @@
 }
 
 .artist-info__genre {
-	margin-top: 8px;
+	margin-top: 4px;
 	font-size: 5px;
 	color: rgba(0, 0, 0, 0.3);
 }
@@ -32,7 +32,7 @@
 .first-screen__btn {
 	display: flex;
 	justify-content: space-evenly;
-	font-size: 5px;
+	align-items: center;
 	margin-top: 15px;
 }
 
@@ -41,22 +41,138 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 25px;
-	width: 60px;
+	height: 17px;
+	width: 50px;
 	border-radius: 20px;
 	padding: 5px 10px;
-}
-
-.first-screen__btn-shuffle {
 	background-color: black;
 	color: white;
+	font-size: 5px;
 }
 
-.first-screen__btn-heart {
-	background-color: black;
-	color: white;
+.first-screen__btn-heart i {
+	color: red;
 }
 
-.first-screen__btn-heart span {
+.first-screen__heart-number {
 	color: rgba(0, 0, 0, 0.3);
+	font-size: 3px;
+}
+
+.first-screen__list {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.first-screen__list-first,
+.first-screen__list-second,
+.first-screen__list-third,
+.first-screen__list-fourth {
+	margin-bottom: 10px;
+}
+
+.first-screen__list img {
+	height: 33px;
+	width: 33px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0.4em rgba(0, 0, 0, 0.2);
+}
+
+.list-second__background {
+	position: absolute;
+	margin: 0 -10px;
+	bottom: 100px;
+
+	height: 45px;
+	width: 180px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.4em rgba(0, 0, 0, 0.1),
+		-1px -1px 0.4em rgba(0, 0, 0, 0.1);
+}
+
+.list-second__play {
+	position: absolute;
+	height: 33px;
+	width: 33px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	margin-top: -36px;
+}
+
+.list-second__play i {
+	position: absolute;
+	top: 35px;
+	margin-right: 2px;
+}
+
+.first-screen__list-info {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 30px;
+	margin-top: -33px;
+	margin-left: 10px;
+}
+.first-screen__list-singer {
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 1px;
+	margin-bottom: 3px;
+}
+
+.first-screen__list-title {
+	font-size: 3px;
+}
+
+.first-screen__list i {
+	position: absolute;
+	font-size: 5px;
+	right: 10px;
+	margin-top: -25px;
+}
+
+.first-screen__playbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width: 180px;
+	height: 40px;
+	background-color: rgb(34, 36, 43);
+	color: white;
+	border-radius: 40px;
+	margin-left: -10px;
+	margin-top: -5px;
+	position: relative;
+	box-shadow: 1px 1px 0.4em rgba(0, 0, 0, 0.4);
+}
+
+.first-screen__playbar-info {
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+.first-screen__playbar-singer {
+	color: rgba(245, 245, 245, 0.608);
+	margin-bottom: 2px;
+}
+
+.first-screen__playbar-icon {
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.first-screen__playbar-icon i {
+	margin-right: 10px;
+	margin-left: 25px;
+}
+
+.first-screen__playbar-icon i:nth-child(2) {
+	position: absolute;
+	font-size: 15px;
+	right: 30px;
+	bottom: 13px;
 }
