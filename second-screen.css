@@ -1,0 +1,91 @@
+.second-screen img {
+	height: 150px;
+	width: 150px;
+	margin: 20px 0px;
+	border-radius: 10px;
+	margin-left: 5px;
+	box-shadow: 2px 9px 0.6em #93856baf;
+}
+
+.second-screen__info {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.second-screen__list-title,
+.second-screen__list-singer {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.second-screen__list-singer {
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 10px;
+	margin-top: 80px;
+}
+
+.second-screen__music-time {
+	display: flex;
+	justify-content: space-between;
+	font-size: 2px;
+	color: rgba(0, 0, 0, 0.3);
+	margin-top: 70px;
+}
+
+.second-screen__music-box {
+	display: flex;
+	position: relative;
+	width: 0px;
+	height: 0px;
+	margin-top: 16px;
+	border-bottom: 2px solid #666666;
+	border-left: 160px solid #666666;
+	border-radius: 30px;
+}
+.second-screen__music-box_circle {
+	display: flex;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	margin-top: -1.5px;
+	margin-left: -53px;
+	border-bottom: 5px solid;
+	border-left: 5px solid;
+	border-radius: 50%;
+}
+
+.second-screen__music-box_black {
+	display: flex;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	margin-top: -0.5px;
+	margin-left: -160px;
+	border-bottom: 3px solid;
+	border-left: 110px solid;
+	border-radius: 30px;
+}
+.second-screen__playbar-icon {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+.second-screen__playbar-icon i:nth-child(3) {
+	margin-top: -7px;
+	font-size: 30px;
+}
+
+.second-screen__playbar-icon i:nth-child(1),
+.second-screen__playbar-icon i:nth-child(5) {
+	font-size: 8px;
+	color: rgba(0, 0, 0, 0.3);
+	margin-top: 3px;
+}
